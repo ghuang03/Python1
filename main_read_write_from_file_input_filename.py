@@ -30,6 +30,8 @@ def main():
 	print (test_file)
 	print(test_file.mode)
 	print(test_file.name)
+	print(test_file.mode)
+	print(test_file.name)
 	test_file.write(bytes("Write me to the file, please please\n", 'UTF-8'))
 	test_file.close()
 	try:
