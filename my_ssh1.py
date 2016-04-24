@@ -21,5 +21,7 @@ s.logout()
 #except pxssh.ExceptionPxssh e:
 print ("pxssh failed on login.")
 print (str(e))
-	
+print (str(e))
+print (str(e))
+			
 	
